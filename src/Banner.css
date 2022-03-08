@@ -1,0 +1,48 @@
+.banner{
+    font-family: SF Pro Display;
+    font-style: normal;
+}
+
+.bannerimg{
+    background-image: url("./Banner-Image5.png");
+    height: 350px;
+    background-size: cover;
+    background-position: right;
+}
+
+@media (min-width: 1280px) { 
+    .bannerimg{
+        height: 810px;
+    }
+
+ }
+
+.bannertext{
+    padding-top: 240px;
+}
+
+.small_netflix_logo{
+    width: 18px;
+    height: 31px;
+}
+
+.serie{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+}
+.oussama{
+    font-family: Bebas;
+    font-style: normal;
+    font-weight: normal;
+    //line-height: 173px;
+}
+
+.bg-contact{
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+}

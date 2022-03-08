@@ -1,0 +1,31 @@
+
+.projets{
+    //position: relative;
+    //top: 1000px;
+}
+
+.proj_irrigation{
+    background-image: url("./proj_irrigation.jpg");
+}
+
+.proj_autoneumVBA{
+    background-image: url("./proj_autoneumVBA.jpg");
+}
+
+.proj_univMaintenance{
+    background-image: url("./proj_univMaintenance.jpg");
+}
+
+.proj_linuxdeamon{
+    background-image: url("./proj_linuxdeamon.jpg");
+}
+
+.proj_Store{
+    background-image: url("./proj_Store.jpg");
+}
+
+.proj_thumb{
+    width: 260px;
+    height: 146px;
+    border-radius: 4px;
+}

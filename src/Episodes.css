@@ -1,0 +1,90 @@
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+
+.epis{
+    //height: 1849px;
+    background: linear-gradient(180deg, rgba(20, 20, 20, 0) 0%, #141414 7.48%);
+}
+
+.bg-epi{
+    background: #282828;
+    border-radius: 11px;
+}
+
+.number-epi{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 32px;
+    color: #B8B8B8;
+}
+
+.thumb{
+    width: 220px;
+    height: 124px;
+    border-bottom: 7px solid #C61519;
+    padding-bottom: 0px;
+    border-radius: 4px;
+}
+
+@media (min-width: 1280px) { 
+    .thumb{
+        width: 260px;
+        height: 146px;
+        border-bottom: 7px solid #C61519;
+        padding-bottom: 0px;
+        border-radius: 4px;
+    }
+
+ }
+
+
+.thumb-epi1{
+    background-image: url("./thumb1.png");
+    background-size: cover;
+}
+
+.thumb-epi2{
+    background-image: url("./thumb2.png");
+}
+
+.thumb-epi3{
+    background-image: url("./thumb3.png");
+}
+
+.thumb-epi4{
+    background-image: url("./thumb4.png");
+}
+
+.title-epi{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    
+}
+
+.year-epi{
+    color: #C61519;
+}
+
+.desc-epi{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #B2B2B2;
+    //width: 861px;
+}
+
+.time-epi{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #B8B8B8;
+}
