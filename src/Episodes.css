@@ -2,18 +2,18 @@
 
 .epis{
     //height: 1849px;
-    background: linear-gradient(180deg, rgba(20, 20, 20, 0) 0%, #141414 7.48%);
+    background: #181818;
 }
 
 .bg-epi{
-    background: #282828;
-    border-radius: 11px;
+    background: #333333;
+    border-radius: 5px;
 }
 
 .number-epi{
-    font-family: SF Pro Display;
+    font-family: Netflix Sans;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 36px;
     line-height: 32px;
     color: #B8B8B8;
@@ -22,20 +22,25 @@
 .thumb{
     width: 220px;
     height: 124px;
-    border-bottom: 7px solid #C61519;
     padding-bottom: 0px;
     border-radius: 4px;
 }
 
 @media (min-width: 1280px) { 
     .thumb{
-        width: 260px;
-        height: 146px;
-        border-bottom: 7px solid #C61519;
+        width: 238px;
+        height: 134px;
         padding-bottom: 0px;
         border-radius: 4px;
     }
 
+    .title-epi{
+        font-size: 20px;
+    }
+
+    .desc-epi{
+        font-size: 20px;
+    }
  }
 
 
@@ -57,34 +62,35 @@
 }
 
 .title-epi{
-    font-family: SF Pro Display;
+    font-family: Netflix Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 32px;
     color: #FFFFFF;
     
 }
 
 .year-epi{
-    color: #C61519;
+    color: #999999;
 }
 
 .desc-epi{
-    font-family: SF Pro Display;
+    font-family: Netflix Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 32px;
     color: #B2B2B2;
     //width: 861px;
 }
 
 .time-epi{
-    font-family: SF Pro Display;
+    font-family: Netflix Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 32px;
     color: #B8B8B8;
+    font-weight: 500;
 }

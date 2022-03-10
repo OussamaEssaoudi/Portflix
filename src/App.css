@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: local('Bebas'), url(./fonts/Bebas-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Netflix Sans';
+  src: local('Netflix Sans'), url(./fonts/NetflixSansRegular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: bold;
+    src: local('Netflix Sans'), url(./fonts/NetflixSansBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 500;
+    src: local('Netflix Sans'), url(./fonts/NetflixSansMedium.ttf) format('truetype');
+}

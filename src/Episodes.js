@@ -44,10 +44,10 @@ const episodes = [
 function Episodes() {
     return (
       <section className="banner z-30">
-        <div className=" w-full  epis relative xl:bottom-20 bottom-32 mt-0">
+        <div className=" w-full  epis relative xl:bottom-12 bottom-0 mt-0">
             <div className="container mx-auto">
-              <h1 className="text-white font-bold text-3xl relative top-10 flex pl-5 xl:pl-0 xl:pt-0 pt-56">Épisodes<span className="text-white pl-1 pt-2"><HiOutlineChevronRight size={23}/></span></h1>
-              <div class="grid gap-y-3 grid-cols-1 grid-rows-2 place-items-center pt-20 pb-0 mx-5">
+              <h1 className="text-white font-bold xl:text-3xl text-2xl relative top-10 flex pl-5 xl:pl-0 xl:pt-0 pt-7">Épisodes<span className="text-white pl-1 pt-2"><HiOutlineChevronRight size={23}/></span></h1>
+              <div class="grid gap-y-7 grid-cols-1 grid-rows-2 place-items-center pt-20 pb-0 mx-5">
               {episodes.map((ep) =>{
                   return(
                       <div className={`${ep.number === 1 ? ('bg-epi') : ('')}  w-full `}>

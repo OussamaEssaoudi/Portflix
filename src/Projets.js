@@ -54,7 +54,7 @@ function Projets() {
       <section className="banner">
         <div className="z-30 w-full projets">
             <div className="container mx-auto">
-              <h1 className="text-white font-bold text-3xl relative top-10 flex pl-5 xl:pl-0">Projets<span className="text-white pl-1 pt-2"><HiOutlineChevronRight size={23}/></span></h1>
+              <h1 className="text-white font-bold xl:text-3xl text-2xl relative top-10 flex pl-5 xl:pl-0">Projets<span className="text-white pl-1 pt-2"><HiOutlineChevronRight size={23}/></span></h1>
               <div class="grid gap-x-1 gap-y-10 grid-cols-1 xl:grid-cols-5 place-items-center pt-20 pb-14 ">
               {projets.map((ep) =>{
                   return(

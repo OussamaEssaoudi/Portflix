@@ -1,0 +1,34 @@
+
+
+.langue{
+    font-family: Netflix Sans;
+    color: #757575;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.about{
+    font-family: Netflix Sans;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.rightInfos{
+    font-family: Netflix Sans;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.grey{
+    color: #757575;
+}
+
+@media (min-width: 1280px) { 
+    
+.rightInfos{
+    font-family: Netflix Sans;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+ }

@@ -34,7 +34,7 @@ function Navbar() {
 
     <div className={`nav ${show && "navblack"} navb position fixed top-0 w-full h-16 p-5 h-6 flex justify-between z-40`}>
           <img
-            className="nav__logo absolute left-5 w-20 object-contain"
+            className="nav__logo absolute left-8 w-20 object-contain"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png"
             alt="Netflix Logo"
           />
@@ -47,11 +47,16 @@ function Navbar() {
               <li><a href="#" className="link">Contact</a></li>
             </ul>
           </nav>
-          {/*<img
-            className="nav__avatar fixed right-5 w-8 object-contain"
-            src="https://i.pinimg.com/originals/0d/dc/ca/0ddccae723d85a703b798a5e682c23c1.png"
+          <img
+          className="nav__gi fixed right-16 w-8 object-contain"
+          src="https://img.icons8.com/plumpy/64/ffffff/github.png"
+          alt="Avatar"
+          />
+          <img
+            className="nav__i fixed right-5 w-8 object-contain"
+            src="https://img.icons8.com/plumpy/64/ffffff/linkedin-circled--v1.png"
             alt="Avatar"
-      />*/}
+          />{/**/}
 
     </div>
 

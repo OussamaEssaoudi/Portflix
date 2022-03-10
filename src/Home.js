@@ -2,6 +2,7 @@ import Banner from "./Banner";
 import Episodes from "./Episodes";
 import Navbar from "./Navbar";
 import Projets from "./Projets";
+import ShowInfo from "./ShowInfo";
 
 
 
@@ -10,6 +11,7 @@ function Home() {
       <>
       {/**/}<Navbar/>
       <Banner/>
+      <ShowInfo/>
       <Episodes/>
       <Projets/>{/**/}
       
