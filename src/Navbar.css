@@ -2,10 +2,11 @@
 .navb{
     background: linear-gradient(180deg, rgba(20, 20, 20, 0.5) 0%, rgba(20, 20, 20, 0) 100%);
     transition: all 0.5s;
+	height:60px;
 }
 
 .navblack{
-    background: #000000;
+    background: #181818;
     transition: all 0.5s;
 }
 
@@ -19,8 +20,6 @@
 	list-style:none;
 	position:relative;
 	float:left;
-	margin:0;
-	padding:0;
 }
 
 #nav ul a

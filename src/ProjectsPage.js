@@ -1,27 +1,23 @@
-import BackEnd from "./BackEnd";
 import Banner from "./Banner";
 import Episodes from "./Episodes";
-import FrontEnd from "./FrontEnd";
 import Navbar from "./Navbar";
 import Projets from "./Projets";
 import ShowInfo from "./ShowInfo";
 
 
 
-function Home() {
+function ProjectsPage() {
     return (
       <>
       {/**/}<Navbar/>
-      <Banner/>
-      <ShowInfo/>
-      <Episodes/>
-      <Projets/>
-      <FrontEnd/>
-      <BackEnd/>{/**/}
+      <div className="mt-14">
+        <Projets/>
+      </div>
+      {/**/}
       
       
       </>
     );
   }
   
-  export default Home;
+  export default ProjectsPage;

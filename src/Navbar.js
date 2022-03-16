@@ -32,7 +32,7 @@ function Navbar() {
         </button>
     </div>
 
-    <div className={`nav ${show && "navblack"} navb position fixed top-0 w-full h-16 p-5 h-6 flex justify-between z-40`}>
+    <div className={`nav ${show && "navblack"} navb position fixed top-0 w-full p-5 h-6 flex justify-between z-40`}>
           <img
             className="nav__logo absolute left-8 w-20 object-contain"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png"
@@ -41,20 +41,25 @@ function Navbar() {
           <nav id="nav" className="hidden md:block">
             <ul>
               <li className="current-menu-item"><a href="/" className="link">Acceuil</a></li>
-              <li><a href="/Projects" className="link">Projets</a></li>
+              <li><a href="/Projets" className="link">Projets</a></li>
               <li><a href="#" className="link">Skills</a></li>
               <li><a href="#" className="link">Design</a></li>
               <li><a href="#" className="link">Contact</a></li>
             </ul>
           </nav>
           <img
-          className="nav__gi fixed right-16 w-8 object-contain"
-          src="https://img.icons8.com/plumpy/64/ffffff/github.png"
+          className="nav__gi fixed right-32 w-8 object-contain"
+          src="https://img.icons8.com/glyph-neue/64/ffffff/github.png"
           alt="Avatar"
           />
           <img
-            className="nav__i fixed right-5 w-8 object-contain"
-            src="https://img.icons8.com/plumpy/64/ffffff/linkedin-circled--v1.png"
+            className="nav__i fixed right-20 w-8 object-contain"
+            src="https://img.icons8.com/glyph-neue/64/ffffff/linkedin-circled--v1.png"
+            alt="Avatar"
+          />
+          <img
+            className="nav__i fixed right-8 w-8 object-contain"
+            src="https://img.icons8.com/glyph-neue/64/ffffff/twitter.png"
             alt="Avatar"
           />{/**/}
 

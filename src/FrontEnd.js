@@ -53,8 +53,8 @@ const projets = [
 const movies = [
   {
     id: 1,
-    image: '/proj_irrigation1.jpg',
-    imageBg: '/proj_irrigation1.jpg',
+    image: '/react.jpg',
+    imageBg: '/react.jpg',
     title: 'Smart irrigation',
     descFr: 'Développement d’un site web et d’une application mobile permettant le contrôle d’un système d’irrigation à distance',
     descEn: 'Development of a website and a mobile application allowing remote control of an irrigation system',
@@ -62,8 +62,8 @@ const movies = [
   },
   {
     id: 3,
-    image: '/proj_univMaintenance1.jpg',
-    imageBg: '/proj_univMaintenance1.jpg',
+    image: '/typescript.jpg',
+    imageBg: '/typescript.jpg',
     title: 'Maintenance app',
     descFr: 'Permettant aux utilisateurs de scanner un code QR ou de visiter une URL d’une ressource, donnant accès à son formulaire de rapport d’anomalie. Le rapport sera transmis directement à l’agent responsable de la ressource.',
     descEn: 'Allowing users to scan a QR code or visit a URL of a resource, giving access to its anomaly report form. The report will be transferred directly to the agent in charge of the resource.',
@@ -71,8 +71,8 @@ const movies = [
   },
   {
     id: 2,
-    image: '/proj_autoneumVBA1.jpg',
-    imageBg: '/proj_autoneumVBA1.jpg',
+    image: '/jquery.jpg',
+    imageBg: '/tailwind.jpg',
     title: 'VBA tool',
     descFr: 'Développement d’un outil pour évaluer le budget et gérer la charge de travail / le département, la fonction et le projet. l’outil pourra évoluer dans le futur pour étendre l’application à d’autres services, d’autres familles de produits…',
     descEn: 'I built a tool to evaluate the budget & manage the workload / dept, function & project. the tool could evolve in the future to extend the application to other departments, other product families…',
@@ -80,8 +80,8 @@ const movies = [
   },
   {
     id: 4,
-    image: '/proj_linuxdeamon.jpg',
-    imageBg: '/proj_linuxdeamon.jpg',
+    image: '/tailwind.jpg',
+    imageBg: '/figma.jpg',
     title: 'Linux deamon',
     descFr: 'composé d’un démon et d’un client : un client peut faire une requête et le démon se chargera de traiter les requêtes de plusieurs clients.',
     descEn: 'composed of a daemon and a client: A client can make a request & the daemon will take care of processing requests of multiple clients.',
@@ -89,7 +89,7 @@ const movies = [
   },
   {
     id: 5,
-    image: '/proj_Store1.jpg',
+    image: '/figma.jpg',
     imageBg: '/proj_Store1.jpg',
     title: 'Ecommerce store',
     descFr: 'Développement d’un site ecommerce permettant de mettre en vente différentes catégorie de vétements.',
@@ -107,13 +107,13 @@ const movies = [
 ];
 
 
-function Projets() {
+function FrontEnd() {
     return (
       
       
 
             <div className="banner container mx-auto">
-            <h1 className="text-white font-bold xl:text-2xl text-2xl relative top-10 flex pl-5 xl:pl-14 pb-10">Projets<span className="text-white pl-1 pt-2"><HiOutlineChevronRight size={23}/></span></h1>
+            <h1 className="text-white font-bold xl:text-2xl text-2xl relative top-10 flex pl-5 xl:pl-14 pb-10">FrontEnd<span className="text-white pl-1 pt-2"><HiOutlineChevronRight size={23}/></span></h1>
               <Slider>
                 {movies.map(movie => (
                   <Slider.Item movie={movie} key={movie.id}>item1</Slider.Item>
@@ -124,7 +124,7 @@ function Projets() {
     );
   }
   
-  export default Projets;
+  export default FrontEnd;
   
   
   

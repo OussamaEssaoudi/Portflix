@@ -5,15 +5,15 @@
 }
 
 .proj_irrigation{
-    background-image: url("./proj_irrigation.jpg");
+    background-image: url("./proj_irrigation1.jpg");
 }
 
 .proj_autoneumVBA{
-    background-image: url("./proj_autoneumVBA.jpg");
+    background-image: url("./proj_autoneumVBA1.jpg");
 }
 
 .proj_univMaintenance{
-    background-image: url("./proj_univMaintenance.jpg");
+    background-image: url("./proj_univMaintenance1.jpg");
 }
 
 .proj_linuxdeamon{
@@ -21,11 +21,11 @@
 }
 
 .proj_Store{
-    background-image: url("./proj_Store.jpg");
+    background-image: url("./proj_Store1.jpg");
 }
 
 .proj_thumb{
-    width: 260px;
-    height: 146px;
+    width: 310px;
+height: 173px;
     border-radius: 4px;
 }
